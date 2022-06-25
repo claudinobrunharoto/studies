@@ -1,0 +1,15 @@
+/home/claudino/Projects/DOTNET/Studies/obj/Debug/net6.0/Studies.csproj.AssemblyReference.cache
+/home/claudino/Projects/DOTNET/Studies/obj/Debug/net6.0/Studies.GeneratedMSBuildEditorConfig.editorconfig
+/home/claudino/Projects/DOTNET/Studies/obj/Debug/net6.0/Studies.AssemblyInfoInputs.cache
+/home/claudino/Projects/DOTNET/Studies/obj/Debug/net6.0/Studies.AssemblyInfo.cs
+/home/claudino/Projects/DOTNET/Studies/obj/Debug/net6.0/Studies.csproj.CoreCompileInputs.cache
+/home/claudino/Projects/DOTNET/Studies/bin/Debug/net6.0/Studies
+/home/claudino/Projects/DOTNET/Studies/bin/Debug/net6.0/Studies.deps.json
+/home/claudino/Projects/DOTNET/Studies/bin/Debug/net6.0/Studies.runtimeconfig.json
+/home/claudino/Projects/DOTNET/Studies/bin/Debug/net6.0/Studies.dll
+/home/claudino/Projects/DOTNET/Studies/bin/Debug/net6.0/Studies.pdb
+/home/claudino/Projects/DOTNET/Studies/obj/Debug/net6.0/Studies.dll
+/home/claudino/Projects/DOTNET/Studies/obj/Debug/net6.0/refint/Studies.dll
+/home/claudino/Projects/DOTNET/Studies/obj/Debug/net6.0/Studies.pdb
+/home/claudino/Projects/DOTNET/Studies/obj/Debug/net6.0/Studies.genruntimeconfig.cache
+/home/claudino/Projects/DOTNET/Studies/obj/Debug/net6.0/ref/Studies.dll
