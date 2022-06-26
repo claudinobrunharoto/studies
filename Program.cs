@@ -14,6 +14,7 @@ do {
     Console.WriteLine("1 - Employee (Heritage)");
     Console.WriteLine("2 - Shape Area (Abstract)");
     Console.WriteLine("3 - Chess Project");
+    Console.WriteLine("4 - Outros Testes"); // para usar para várias coisas... pode apagar, modificar, etc...
     Console.WriteLine("X - Exit\n");
 
     if (String.IsNullOrEmpty(devOption)) {
@@ -24,8 +25,9 @@ do {
 
     switch (userOption) {
         case "1": HeritageMain x = new HeritageMain(); break;
-        case "2": AbstractMain y = new AbstractMain(); break;
-        case "3": ChessMain z = new ChessMain(); break;
+        case "2": AbstractMain w = new AbstractMain(); break;
+        case "3": ChessMain y = new ChessMain(); break;
+        case "4": OtherMain z = new OtherMain(); break;
         default:
             menuReturn = false;
             if (userOption.ToUpper() != "X") {
