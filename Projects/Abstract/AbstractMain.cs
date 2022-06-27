@@ -1,5 +1,4 @@
 using Abstract.Entities;
-using System.Globalization;
 using Abstract.Entities.Enums;
 
 namespace Course
@@ -12,7 +11,7 @@ namespace Course
         }
         public void Run()
         {
-            List<Shape> list = new List<Shape>();
+            List<IShape> list = new List<IShape>();
 
             Console.Write("Enter the number of shapes: ");
             int n = int.Parse(Console.ReadLine());
@@ -40,9 +39,9 @@ namespace Course
 
             Console.WriteLine();
             Console.WriteLine("SHAPE AREAS:");
-            foreach (Shape shape in list)
+            foreach (IShape shape in list)
             {
-                Console.WriteLine(shape.Area().ToString("F2", CultureInfo.InvariantCulture));
+                Console.WriteLine(shape);
             }
         }
     }

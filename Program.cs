@@ -6,19 +6,20 @@ string userOption, devOption;
 bool menuReturn;
 
 do {
-    devOption = "3"; // use a number to automaticaly enter a menu option!
+    devOption = ""; // use a number to automaticaly enter a menu option!
     menuReturn = true;
     userOption = devOption;
 
     Console.Clear();
     Console.WriteLine("1 - Employee (Heritage)");
-    Console.WriteLine("2 - Shape Area (Abstract)");
+    Console.WriteLine("2 - Shape Area (Abstract class + Interface)");
     Console.WriteLine("3 - Chess Project");
     Console.WriteLine("4 - Outros Testes"); // para usar para várias coisas... pode apagar, modificar, etc...
+    Console.WriteLine("5 - Car Rental or Contract (Interface)");
     Console.WriteLine("X - Exit\n");
 
     if (String.IsNullOrEmpty(devOption)) {
-        userOption = Console.ReadLine() ?? string.Empty;
+        userOption = Console.ReadLine() ?? string.Empty; // se digitar nada utiliza a opção de sair
     }
 
     Console.Clear();
@@ -28,6 +29,7 @@ do {
         case "2": AbstractMain w = new AbstractMain(); break;
         case "3": ChessMain y = new ChessMain(); break;
         case "4": OtherMain z = new OtherMain(); break;
+        case "5": InterfaceMain i = new InterfaceMain(); break;
         default:
             menuReturn = false;
             if (userOption.ToUpper() != "X") {

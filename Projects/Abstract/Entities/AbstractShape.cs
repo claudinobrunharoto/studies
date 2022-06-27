@@ -2,11 +2,11 @@ using Abstract.Entities.Enums;
 
 namespace Abstract.Entities
 {
-    abstract class Shape
+    abstract class AbstractShape : IShape
     {
         public Color Color { get; set; }
         
-        public Shape(Color color)
+        public AbstractShape(Color color)
         {
             Color = color;
         }
