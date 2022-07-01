@@ -25,9 +25,7 @@ namespace Generics.Entities
 
         public override string ToString()
         {
-            return Name
-                + ", "
-                + Price.ToString("F2", CultureInfo.InvariantCulture);
+            return Name + ", " + Price.ToString("F2", CultureInfo.InvariantCulture);
         }
     }
 }

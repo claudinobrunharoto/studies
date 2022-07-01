@@ -9,7 +9,7 @@ namespace Course
         {
             Run();
         }
-        public void Run()
+        private void Run()
         {
             Console.WriteLine("No chess yet");
         }
