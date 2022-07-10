@@ -6,7 +6,7 @@ string userOption, devOption;
 bool menuReturn;
  
 do {
-    devOption = ""; // use a number to automaticaly enter a menu option!
+    devOption = "3"; // use a number to automaticaly enter a menu option!
     menuReturn = true;
     userOption = devOption;
 

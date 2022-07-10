@@ -6,8 +6,23 @@ namespace Course
     {
         public LinqMain()
         {
-            Run();
+            Console.WriteLine("LINQ - Language Integrated Query:\n");
+            Console.WriteLine("1 - Exemplos");
+            Console.WriteLine("2 - Exercício");
+            //Console.WriteLine("3 - Exercício");
+            string userOption = Console.ReadLine() ?? string.Empty;
+            Console.Clear();
+            if (userOption == "1") {
+                Exemples();
+            } else {
+                Exercicio();
+            }
         }    
+
+        private void Exercicio()
+        {
+            
+        }
 
         static void Print<T>(string message, IEnumerable<T> collection)
         {
@@ -19,7 +34,7 @@ namespace Course
             Console.WriteLine();
         }
 
-        private void Run()
+        private void Exemples()
         {
             Category c1 = new Category() { Id = 1, Name = "Tools", Tier = 2 };
             Category c2 = new Category() { Id = 2, Name = "Computers", Tier = 1 };
